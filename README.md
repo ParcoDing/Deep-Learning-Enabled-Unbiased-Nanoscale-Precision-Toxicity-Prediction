@@ -4,7 +4,7 @@ one can visit the raw data and deep learning model at the link https://drive.goo
 The repository is organized as follows:
 
 * **`training data`**
-  Contains all datasets collected from our previous experiments. These images and annotations were used to train the U-Net model.
+  This directory contains all datasets collected from our previous experiments, and the images together with their manual masks were used to train the U-Net model. The folder has 4 subfolders denote 4 cell types. Each of the four cell-type subfolders (`SKM`, `IPL`, `PRL`, and `SC`) includes data folders and Jupyter notebooks: the `raw data` folder stores original images, `data` contains the prepared training and validation sets, `model weight` holds trained U-Net weights, and `result-compare thre` stores outputs used to compare deep-learning segmentation with thresholding methods. The key notebooks are `prepare data.ipynb` (prepares the training/validation datasets), `Unet.ipynb` (model training), `analysis.ipynb` (applies the trained U-Net to new experimental images and performs downstream analysis), and `compare deep learning-threshold.ipynb` (compares deep-learning and thresholding segmentation results), together providing a complete, reproducible pipeline from raw images to model training, inference, and method comparison.
 
 * **`newest data`**
   Holds the most recent experimental images, which were reserved exclusively for evaluating U-Net’s segmentation performance.
