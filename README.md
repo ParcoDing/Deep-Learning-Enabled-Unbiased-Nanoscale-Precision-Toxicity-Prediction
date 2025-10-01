@@ -1,6 +1,8 @@
 # Deep-Learning-Enabled-Unbiased-Nanoscale-Precision-Toxicity-Prediction
 one can visit the raw data and deep learning model at the link https://drive.google.com/drive/folders/1Kmw7ZN5fD2UyVsAj479g13qyK8MgGksz?usp=sharing
 
+
+
 The repository is organized as follows:
 
 * **`training data`**
@@ -18,3 +20,27 @@ The repository is organized as follows:
 * **`SKM (robustness testing)`**
   Contains the datasets used for Figure 4, designed to challenge the model under various perturbations and verify its robustness.
 
+
+
+**How to cite (BibTeX):**
+@article{wang2025deep,
+  title = {Deep Learning-Enabled Unbiased Precision Toxicity Assessment of Zebrafish Organ Development},
+  author = {Wang, Mengyu and Wang, Wen-Xiong},
+  journal = {Environmental Science & Technology},
+  year = {2025},
+  doi = {TBD}
+}
+
+
+
+# Research-Use License
+
+Copyright (c) 2025 Mengyu Wang and Wen-Xiong Wang. All rights reserved.
+
+**License terms:**
+- Anyone is permitted to use, copy, modify, and distribute the code, models, and data in this repository **free of charge**, **only for non-commercial research and educational purposes**.
+- When using these materials, please retain this copyright notice and cite the work as: Wang, M.; Wang, W.-X., *Deep Learning-Enabled Unbiased Precision Toxicity Assessment of Zebrafish Organ Development* (manuscript/repository).
+- Commercial use, sale, or redistribution for profit is prohibited. For commercial licensing, please contact the corresponding author to arrange permission.
+- The materials are provided “as is”, without any express or implied warranty. The authors are not liable for any damages or losses arising from use of these materials.
+
+**Contact:** For alternative licensing or questions, please contact the corresponding author (see the manuscript).
