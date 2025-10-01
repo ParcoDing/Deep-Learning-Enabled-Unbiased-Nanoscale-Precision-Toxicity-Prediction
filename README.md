@@ -17,6 +17,7 @@ The repository is organized as follows:
 
 # Citation
 **How to cite (BibTeX):**
+```bibtex
 @article{wang2025deep,
   title = {Deep Learning-Enabled Unbiased Precision Toxicity Assessment of Zebrafish Organ Development},
   author = {Wang, Mengyu and Wang, Wen-Xiong},
@@ -24,6 +25,7 @@ The repository is organized as follows:
   year = {2025},
   doi = {TBD}
 }
+```
 
 
 
